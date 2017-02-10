@@ -1,0 +1,207 @@
+/*body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+
+}
+
+body{
+    background-color: #808080; 
+
+
+  
+}
+
+
+
+a {
+  color: #00B7FF;
+}*/
+
+html {
+    width: 100%;
+}
+body {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.42857;
+    color: #E0E0E0;
+    background-color: #333;
+    text-align: center;
+}
+
+.boxed {
+    box-shadow: 5px 8px 5px #000;
+    min-height: 50px;
+    background-color: #4d4d4d;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    /* align horizontal */
+    align-items: center;
+    /* align vertical */
+}
+
+.paddinged {
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+
+.autocomplete-dropdown {
+    background-color: #1E2325;
+    border: 1px solid #2B3134;
+    font-weight: 400;
+    color: #FFF;
+}
+
+.main-panel {
+    background-color: rgba(176, 219, 255, 0.03);
+    box-shadow: 0px 0px 15px rgba(0, 0, 20, 0.21);
+    border: 1px solid #121617;
+}
+
+.centered {
+     float: none;
+     margin-left: auto;
+     margin-right: auto;
+}
+
+.bordered {
+    border: 1px solid #2B3134;
+}
+
+/* Charts CSS */
+
+.chart-container {
+    width: 50%;
+}
+
+.legend-container {
+    position: relative;
+}
+
+.chart {
+    background-color : #404040;
+}
+
+.legend {
+    position: absolute;
+    z-index: 1;
+}
+
+.legend ul li { list-style:none; }
+
+.legend li span {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    margin-right: 5px;
+    border-radius: 5px;
+}
+
+.inline-legend ul li {
+    display:inline-block;
+    margin-right: 5px;
+}
+
+.top-left {
+    top: 7px;
+    left: 5 px;
+}
+
+.top-right {
+    top: 7px;
+    right: 5px;
+}
+
+/*.canvas{
+    width: 300px;
+    height:300px;
+    background-color: #FFFFFF;
+}*/
+
+@media screen and (min-width: 1125px) {
+    .main-panel {
+        max-width: 1400px;
+        width: 95%;
+        margin: auto;
+    }
+}
+
+canvas{
+    background-color: #FFFFFF;
+    border-radius: 25px;
+}
+
+h2{
+    background-color: #fff;
+    border-radius: 25px;
+    color:#666;
+}
+
+
+.myButton {
+    background-color:#44c767;
+    -moz-border-radius:28px;
+    -webkit-border-radius:28px;
+    border-radius:5px;
+    border:1px solid #18ab29;
+    display:inline-block;
+    cursor:pointer;
+    color:#ffffff;
+    font-family:Arial;
+    font-size:17px;
+    padding:16px 31px;
+    text-decoration:none;
+    text-shadow:0px 1px 0px #2f6627;
+    position: absolute;
+    top:100px;
+    left: 50px;
+}
+.myButton:hover {
+    background-color:#5cbf2a;
+}
+.myButton:active {
+    position: absolute;
+    top:100px;
+    left: 50px;
+}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 25%;
+    top: 25%;
+    width: 50%; /* Full width */
+    height: 50%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
